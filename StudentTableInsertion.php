@@ -8,7 +8,7 @@ $StudentName = $_POST['student_name'];
 
 
 
-$s= " INSERT INTO student (`stud_name`, `stud_no`) VALUES ('$StudentName','StudentNo')" ;
+$s= " INSERT INTO student (`stud_name`, `stud_no`) VALUES ('$StudentName','$StudentNo')" ;
 
 $result=mysqli_query($con,$s);
 
