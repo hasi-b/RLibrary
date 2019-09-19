@@ -19,6 +19,7 @@ if(empty($Error)){
 }
 else{
     echo("Error Description: ".mysqli_error($con));
+    echo("Try Inserting Data on Student Table First");
 }
 
 
