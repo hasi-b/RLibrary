@@ -20,7 +20,7 @@ if(empty($Error)){
 else{
     echo("Error Description: ".mysqli_error($con));
     echo "<br>";
-    
+    echo("Student No Must Start With 'C'");
 }
 
 
