@@ -3,7 +3,7 @@ session_start();
 $con=mysqli_connect('localhost','root','');
 mysqli_select_db($con,'rlibrary' );
 $StudentNo= $_POST['student_no'];
-$StudentName = $_POST['student_name'];
+
 
 
 
