@@ -56,7 +56,7 @@ $result=mysqli_query($con,$s);
             <tr>
             <tr>
             
-             <th> stud_name</th>
+             <th> Student name</th>
                 <th> Number of Books</th>
                 
             </tr>
