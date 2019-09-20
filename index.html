@@ -18,19 +18,39 @@ h2{
     
 }
 a:link {
-  color: black;
+    border: none;
+background: #404040;
+color: #ffffff !important;
+font-weight: 100;
+padding: 20px;
+text-transform: uppercase;
+border-radius: 6px;
+display: inline-block;
+transition: all 0.3s ease 0s;
 }
 
 a:hover {
-  color: red;
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+border-radius: 50px;
+border-color: #494949 !important;
+
+transition: all 0.3s ease 0s;
 }
 
+
 a:active {
-  color: green;
+  color: red;
 }
 .wrap{
     text-align: center;
     color: #0060B6;
+}
+button{
+    padding: 0;
+border: none;
+background: none;
 }
 
 </style>
@@ -42,16 +62,16 @@ a:active {
     <div><h2>Show Table</h2></div>
     <div class="wrap">
     
-        <button id="B1" type="submit"><a href="TableStudentShow.php"style="text-decoration:none;">Student Table</a></button>
+        <button id="B1" type="submit"><a href="TableStudentShow.php"style="text-decoration:none;"rel="nofollow noopener">Student Table</a></button>
     
   
-            <button id="B2" type="submit"><a href="TableBookShow.php"style="text-decoration:none;">Book Table</a></button>
+            <button id="B2" type="submit"><a href="TableBookShow.php"style="text-decoration:none;"rel="nofollow noopener">Book Table</a></button>
         
       
-                <button id="B3" type="submit"><a href="TableMembershipShow.php"style="text-decoration:none;">Membership Table</a></button>
+                <button id="B3" type="submit"><a href="TableMembershipShow.php"style="text-decoration:none;"rel="nofollow noopener">Membership Table</a></button>
             
           
-                    <button id="B4" type="submit"><a href="TableIssueShow.php"style="text-decoration:none;">Issue Table</a></button>
+                    <button id="B4" type="submit"><a href="TableIssueShow.php"style="text-decoration:none;"rel="nofollow noopener">Issue Table</a></button>
                 </div>
 
     </body>
